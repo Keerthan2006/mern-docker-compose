@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates how to **containerize a MERN (MongoDB, Express, React, Node.js) stack application** using Docker and Docker Compose.
+This project demonstrates how to **containerize a MERN (MongoDB, Express, React, Node.js) stack application** using Docker.
 
 The implementation was done in **two stages**.
 
@@ -95,6 +95,7 @@ A **custom bridge network** is used so all services can communicate internally.
 
 ```
 frontend  <---->  backend  <---->  mongodb
+```
 
 ---
 
@@ -184,4 +185,3 @@ docker compose down -v
 # Author
 
 Keerthan
-
